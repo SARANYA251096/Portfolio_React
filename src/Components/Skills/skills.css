@@ -1,0 +1,39 @@
+.container1 {
+  margin-top: 50px;
+  padding-top: 0;
+}
+.skills {
+  margin-top: 100px;
+}
+
+.skills .heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 80px;
+}
+
+.skills .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skills .skill:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 991px) {
+  .skills .skill {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .skills .container1 .row {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,59 @@
+.about {
+  padding: 100px 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about .heading {
+  font-size: 48px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.about .heading span {
+  color: #f82249;
+}
+
+.about .heading:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 3px;
+  background-color: #f82249;
+}
+
+.about p.lead {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about h3 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  text-align: center;
+  margin-left: 100px;
+
+}
+
+.about .btn {
+  display: inline-block;
+  padding: 6px 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease 0s;
+}
