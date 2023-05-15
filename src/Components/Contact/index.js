@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
 
 function Contact() {
+  useEffect(() => {
+    emailjs.init("GJIOnUrVlj9HWT45P");
+  }, []);
   const sendEmail = (event) => {
     event.preventDefault();
 
