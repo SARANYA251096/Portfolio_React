@@ -21,7 +21,7 @@ function About() {
               of various organizations.
             </p>
             <a
-              href="https://drive.google.com/file/d/163qTChueVM2921-Ff3WldDJwC2SNzV0x/view"
+              href="https://drive.google.com/file/d/16CCCbEDHkfnQGk2wlwSNGPpiJ6ERAAbM/view"
               target="_blank"
               rel="noreferrer"
               className="btn"
