@@ -17,14 +17,18 @@ function Projects() {
             <div className="layer">
               <h3>MERN Authentication</h3>
               <p>
-                Implemented secure access and user management
-                features. Utilized industry-standard authentication mechanisms
-                such as JSON Web Tokens (JWT) and bcrypt for password hashing.
-                Developed user registration and login forms, enabling users to
-                create accounts and securely authenticate themselves. Integrated
-                user authentication with the frontend using React components
+                Implemented secure access and user management features. Utilized
+                industry-standard authentication mechanisms such as JSON Web
+                Tokens (JWT) and bcrypt for password hashing. Developed user
+                registration and login forms, enabling users to create accounts
+                and securely authenticate themselves. Integrated user
+                authentication with the frontend using React components
               </p>
-              <a href="https://beamish-churros-c086f5.netlify.app/">
+              <a
+                href="https://beamish-churros-c086f5.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="bx bx-link-external"></i>
               </a>
             </div>
