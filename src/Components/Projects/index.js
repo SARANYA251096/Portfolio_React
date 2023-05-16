@@ -15,12 +15,16 @@ function Projects() {
           <div className="work">
             <img src="images/work-1.png" alt="Work 1" />
             <div className="layer">
-              <h3>Social Media App</h3>
+              <h3>MERN Authentication</h3>
               <p>
-                The app connects you to talented people around the world.
-                Download it from the app store.
+                Implemented secure access and user management
+                features. Utilized industry-standard authentication mechanisms
+                such as JSON Web Tokens (JWT) and bcrypt for password hashing.
+                Developed user registration and login forms, enabling users to
+                create accounts and securely authenticate themselves. Integrated
+                user authentication with the frontend using React components
               </p>
-              <a href="#">
+              <a href="https://beamish-churros-c086f5.netlify.app/">
                 <i className="bx bx-link-external"></i>
               </a>
             </div>
@@ -28,10 +32,12 @@ function Projects() {
           <div className="work">
             <img src="images/work-2.png" alt="Work 2" />
             <div className="layer">
-              <h3>Chat App</h3>
+              <h3>MERN Chat App</h3>
               <p>
-                The app connects you to talented people around the world.
-                Download it from the app store.
+                Developed a real-time chat application using the MERN (MongoDB,
+                Express, React, Node.js) stack. Implemented features such as
+                real-time messaging, user authentication, chat room creation,
+                message history, and notifications.
               </p>
               <a
                 href="https://stately-rugelach-600890.netlify.app/"
@@ -45,10 +51,12 @@ function Projects() {
           <div className="work">
             <img src="images/work-3.png" alt="Work 3" />
             <div className="layer">
-              <h3>Recipe App</h3>
+              <h3>MERN Recipe App</h3>
               <p>
-                The app connects you to talented people around the world.
-                Download it from the app store.
+                Developed a recipe application using the MERN stack, allowing
+                users to discover, save, and share recipes. Implemented key
+                features such as recipe search, user authentication, favoriting
+                recipes, and creating personalized recipe collections
               </p>
               <a
                 href="https://animated-treacle-44ba01.netlify.app/"
