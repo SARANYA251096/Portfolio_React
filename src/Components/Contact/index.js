@@ -21,49 +21,49 @@ function Contact() {
   };
 
   return (
-    <div className="text-center" id="contacts">
-      {/* <!-- <div className="container text-center"> --> */}
-      <div className="row text-center">
-        <div className="contact-left">
-          <h1 className="sub-title text-center">Contact Me</h1>
-          <p>
-            <i className="bx bx-send"></i>saranyaayyamuthu96@gmail.com
-          </p>
-          <p>
-            <i className="bx bxs-phone-call text-center"></i>(+91)9600559993
-          </p>
+    
+      <div className="container" id="contacts">
+        <div className="row">
+          <div className=" col-md-6 contact-left">
+            <h1 className="sub-title">Contact Me</h1>
+            <p>
+              <i className="bx bx-send"></i>saranyaayyamuthu96@gmail.com
+            </p>
+            <p>
+              <i className="bx bxs-phone-call"></i>(+91)9600559993
+            </p>
+          </div>
+          <div className="col-md-6 contact-right">
+            <h1>Get In<span>Touch</span></h1>
+            <form>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                id="name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                id="message"
+                rows="3"
+                placeholder="Your Message"
+              ></textarea>
+              <button id="sendBtn" onClick={sendEmail} className="btn btn2">
+                Send
+              </button>
+            </form>
+          </div>
         </div>
-        <div className="contact-right">
-          <h1>Get In Touch</h1>
-          <form>
-            <input
-              type="text"
-              name="Name"
-              placeholder="Your Name"
-              id="name"
-              required
-            />
-            <input
-              type="email"
-              name="Email"
-              id="email"
-              placeholder="Your Email"
-              required
-            />
-            <textarea
-              name="Message"
-              id="message"
-              rows="3"
-              placeholder="Your Message"
-            ></textarea>
-            <button id="sendBtn" onClick={sendEmail} className="btn btn2">
-              Send
-            </button>
-          </form>
-        </div>
-        {/* <!-- </div> --> */}
       </div>
-    </div>
+    
   );
 }
 

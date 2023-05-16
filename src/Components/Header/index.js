@@ -22,7 +22,7 @@ function Header() {
           Contact
         </a>
       </nav>
-      <div className="bx bx-menu" id="menu-icon"></div>
+      {/* <div className="bx bx-menu" id="menu-icon"></div> */}
     </header>
   );
 }

@@ -2,6 +2,7 @@
   margin-top: 50px;
   padding-top: 0;
 }
+
 .skills {
   margin-top: 100px;
 }
@@ -21,10 +22,20 @@
   margin-right: 30px;
   margin-bottom: 30px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .skills .skill:last-child {
   margin-right: 0;
+}
+
+.skills .skill .icon {
+  transition: transform 0.3s ease;
+}
+
+.skills .skill:hover .icon {
+  transform: scale(1.1);
 }
 
 @media (max-width: 991px) {

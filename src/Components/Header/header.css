@@ -40,11 +40,17 @@
   -webkit-background-clip: text;
 }
 
-#menu-icon {
+/* #menu-icon {
   font-size: 35px;
   color: white;
   z-index: 100;
   cursor: pointer;
   margin-left: 25px;
   display: none;
+} */
+
+@media screen  and (max-width:720px){
+  .navbar{
+    visibility: hidden;
+  }
 }
