@@ -43,6 +43,7 @@
   padding: 5px;
   text-align: center;
   margin-left: 100px;
+  /* margin-bottom: 20px; */
 
 }
 
@@ -56,4 +57,16 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 767px) {
+  .about .col-md-6 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about .col-md-6 {
+    margin-top: 40px;
+  }
 }

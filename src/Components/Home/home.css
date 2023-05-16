@@ -10,6 +10,7 @@
 .home-content {
   max-width: 500px;
   margin-left: -30px;
+  text-align: start;
 }
 
 .home-content h1 {
@@ -211,4 +212,97 @@
   max-width: 400px;
   object-fit: cover;
   margin-top: -20px;
+}
+
+@media screen  and (max-width:1110px){
+  .home-img{
+    margin: 0 0px 0 80px;
+  }
+
+}
+@media screen  and (max-width:910px){
+  .home-img{
+    height: 320px;
+    width:320px;
+    margin: 0 0px 0 4px;
+  }
+  
+}
+@media screen  and (max-width:810px){
+  .home-img{
+    margin:0  !important;
+  }
+  
+}
+
+@media screen  and (max-width:375px){
+  .home-img{
+    margin:-90px;
+    height: 275px;
+    width: 275px;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+.home {
+flex-direction: column;
+padding: 70px 5% 0;
+text-align: center;
+}
+
+.home-content {
+margin-left: 0;
+}
+
+.home-img {
+margin-top: 40px;
+width: 100%;
+height: auto;
+max-width: 300px;
+margin: 0 auto;
+}
+
+.home-sci {
+margin-top: 40px;
+}
+
+.home-sci a {
+margin: 10px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.home {
+padding-top: 50px;
+}
+
+.home-content h1 {
+font-size: 40px;
+}
+
+.home-content h3 {
+font-size: 24px;
+}
+
+.home-content p {
+font-size: 14px;
+}
+
+.btn {
+font-size: 16px;
+width: 150px;
+height: 40px;
+}
+
+.home-sci a {
+width: 30px;
+height: 30px;
+font-size: 16px;
+}
+
+.home-img {
+width: 250px;
+height: 250px;
+}
 }
