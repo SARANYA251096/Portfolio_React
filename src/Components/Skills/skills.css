@@ -1,8 +1,3 @@
-.container1 {
-  margin-top: 50px;
-  padding-top: 0;
-}
-
 .skills {
   margin-top: 100px;
 }
@@ -13,6 +8,11 @@
   font-weight: bold;
   margin-bottom: 30px;
   line-height: 80px;
+}
+
+.skills .container1 {
+  margin-top: 50px;
+  padding-top: 0;
 }
 
 .skills .skill {
@@ -30,11 +30,11 @@
   margin-right: 0;
 }
 
-.skills .skill .icon {
+.skills .skill img {
   transition: transform 0.3s ease;
 }
 
-.skills .skill:hover .icon {
+.skills .skill:hover img {
   transform: scale(1.1);
 }
 
