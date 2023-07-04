@@ -1,33 +1,10 @@
-import React from 'react';
+import React from "react";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <section className="home" id="home">
-      <div className="home-sci">
-        <a
-          href="https://www.linkedin.com/in/saranya2596/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="bx bxl-linkedin"></i>
-        </a>
-        <a
-          href="https://github.com/SARANYA251096"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="bx bxl-github"></i>
-        </a>
-        <a
-          href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="bx bxl-gmail"></i>
-        </a>
-      </div>
-
       <div className="home-content">
         <h1>Hello, I'm Saranya A</h1>
         <h3>Full Stack Developer</h3>
@@ -36,7 +13,10 @@ function Home() {
           fast-paced work environment. Have passion for creating beautiful,
           user-friendly, and functional websites.
         </p>
-        <button className="btn">Hire Me</button>
+        {/* <button className="btn">Hire Me</button> */}
+        <Link to="/contact" className="btn">
+          Hire Me
+        </Link>
       </div>
 
       <div className="row">
@@ -56,5 +36,4 @@ function Home() {
   );
 }
 
-export default Home
-
+export default Home;

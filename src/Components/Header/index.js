@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 function Header() {
@@ -6,23 +7,22 @@ function Header() {
     <header className="header">
       <h1>Portfolio</h1>
       <nav className="navbar">
-        <a href="#home" style={{ "--i": 1 }} className="active">
+        <Link to="/" style={{ "--i": 1 }} className="active">
           Home
-        </a>
-        <a href="#about" style={{ "--i": 2 }}>
+        </Link>
+        <Link to="/about" style={{ "--i": 2 }}>
           About
-        </a>
-        <a href="#skills" style={{ "--i": 3 }}>
+        </Link>
+        <Link to="/skills" style={{ "--i": 3 }}>
           Skills
-        </a>
-        <a href="#projects" style={{ "--i": 4 }}>
+        </Link>
+        <Link to="/projects" style={{ "--i": 4 }}>
           Projects
-        </a>
-        <a href="#contacts" style={{ "--i": 5 }}>
+        </Link>
+        <Link to="/contact" style={{ "--i": 5 }}>
           Contact
-        </a>
+        </Link>
       </nav>
-      {/* <div className="bx bx-menu" id="menu-icon"></div> */}
     </header>
   );
 }
