@@ -63,8 +63,8 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <i className="bx bx-link-external"></i>
-                <a
+                <i className="bx bx-link-external"></i>
+                {/* <a
                   href="https://github.com/SARANYA251096/Chatapp-frontend"
                   target="_blank"
                   rel="noopener noreferrer"
