@@ -29,22 +29,22 @@ function Projects() {
                 rel="noopener noreferrer"
               >
                 <i className="bx bx-link-external"></i>
-                <a
+                {/* <a
                   href="https://github.com/SARANYA251096/Password_Reset_frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn5"
                 >
                   Frontend
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="https://github.com/SARANYA251096/Password_reset_server"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn5"
                 >
                   Backend
-                </a>
+                </a> */}
               </a>
             </div>
           </div>
@@ -63,7 +63,7 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bx bx-link-external"></i>
+                {/* <i className="bx bx-link-external"></i>
                 <a
                   href="https://github.com/SARANYA251096/Chatapp-frontend"
                   target="_blank"
@@ -79,7 +79,7 @@ function Projects() {
                   className="btn5"
                 >
                   Backend
-                </a>
+                </a> */}
               </a>
             </div>
           </div>
@@ -99,7 +99,7 @@ function Projects() {
                 rel="noopener noreferrer"
               >
                 <i className="bx bx-link-external"></i>
-                <a
+                {/* <a
                   href="https://github.com/SARANYA251096/Recipe_App_Frontend"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -114,7 +114,7 @@ function Projects() {
                   className="btn5"
                 >
                   Backend
-                </a>
+                </a> */}
               </a>
             </div>
           </div>
@@ -132,14 +132,14 @@ function Projects() {
                 rel="noopener noreferrer"
               >
                 <i className="bx bx-link-external"></i>
-                <a
+                {/* <a
                   href="https://github.com/SARANYA251096/Contact_app_react"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn5"
                 >
                   Frontend
-                </a>
+                </a> */}
               </a>
             </div>
           </div>
