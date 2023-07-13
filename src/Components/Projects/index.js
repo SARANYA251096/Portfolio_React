@@ -11,6 +11,14 @@ function Projects() {
         >
           My Projects
         </h1>
+
+        <p style={{ fontSize: "17px", marginTop: "2px" }}>
+          User Id : user123, Password : user@123
+        </p>
+        <p style={{ fontSize: "17px", marginTop: "2px" }}>
+          Admin Id : admin123, Password : admin@123
+        </p>
+
         <div className="work-list">
           <div className="work">
             <img src="images/work-1.png" alt="Work 1" />
@@ -23,29 +31,34 @@ function Projects() {
                 registration and login forms, enabling users to create accounts
                 and securely authenticate themselves.
               </p>
-              <a
-                href="https://beamish-churros-c086f5.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bx bx-link-external"></i>
-                {/* <a
+              <div className="projectt">
+                <a
                   href="https://github.com/SARANYA251096/Password_Reset_frontend"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn5"
                 >
-                  Frontend
-                </a> */}
-                {/* <a
-                  href="https://github.com/SARANYA251096/Password_reset_server"
+                  <button>Frontend</button>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://stately-rugelach-600890.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn5"
                 >
-                  Backend
-                </a> */}
-              </a>
+                  <button>Backend</button>
+                </a>
+                <a
+                  href="https://glistening-daffodil-5438e2.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
+                  >
+                    Live
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="work">
@@ -58,29 +71,34 @@ function Projects() {
                 notifications.Developed a real-time chat application using the
                 MERN (MongoDB, Express, React, Node.js) stack.
               </p>
-              <a
-                href="https://stately-rugelach-600890.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bx bx-link-external"></i>
-                {/* <a
+              <div className="projectt">
+                <a
                   href="https://github.com/SARANYA251096/Chatapp-frontend"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn5"
                 >
-                  Frontend
+                  <button>Frontend</button>
                 </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://github.com/SARANYA251096/Chatapp-backend"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn5"
                 >
-                  Backend
-                </a> */}
-              </a>
+                  <button>Backend</button>
+                </a>
+                <a
+                  href="https://stately-rugelach-600890.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
+                  >
+                    Live
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="work">
@@ -93,29 +111,75 @@ function Projects() {
                 features such as recipe search, user authentication, favoriting
                 recipes, and creating personalized recipe collections
               </p>
-              <a
-                href="https://animated-treacle-44ba01.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bx bx-link-external"></i>
-                {/* <a
+
+              <div className="projectt">
+                <a
                   href="https://github.com/SARANYA251096/Recipe_App_Frontend"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn5"
                 >
-                  Frontend
+                  <button>Frontend</button>
                 </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
-                  href="https://github.com/SARANYA251096/Recipe_App_Back"
+                  href="https://github.com/SARANYA251096/Recipe_App_Backend"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn5"
                 >
-                  Backend
-                </a> */}
-              </a>
+                  <button>Backend</button>
+                </a>
+                <a
+                  href="https://animated-treacle-44ba01.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
+                  >
+                    Live
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="work">
+            <img src="images/work-3.png" alt="Work 3" />
+            <div className="layer">
+              <h3>Shawarma World</h3>
+              <p style={{ marginTop: "10px" }}>
+                Developed a shawarma delivery application using the MERN stack,
+                allowing users to select their favourite varieties and added to
+                cart. Implemented key features such as search,filter, user
+                authentication,admin and used stripe payment gateway integration
+              </p>
+              <div className="projectt">
+                <a
+                  href="https://github.com/SARANYA251096/Shawarma_world_frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Frontend</button>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://github.com/SARANYA251096/Shawarma_world_backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Backend</button>
+                </a>
+                <a
+                  href="https://shawarma-world-frontend.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
+                  >
+                    Live
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="work">
@@ -126,28 +190,30 @@ function Projects() {
                 Implemented frontend react contact application to
                 create,edit,delete an contact.
               </p>
-              <a
-                href="https://react-contacts-app1.netlify.app/contacts/list"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bx bx-link-external"></i>
-                {/* <a
+              <div className="projectt">
+                <a
                   href="https://github.com/SARANYA251096/Contact_app_react"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn5"
                 >
-                  Frontend
-                </a> */}
-              </a>
+                  <button>Frontend</button>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://react-contacts-app1.netlify.app/contacts/list"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
+                  >
+                    Live
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-
-        {/* <a href="#" className="btn3" style={{ fontSize: "medium" }}>
-          See More
-        </a> */}
       </div>
     </div>
   );
