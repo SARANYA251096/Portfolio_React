@@ -13,10 +13,10 @@ function Projects() {
         </h1>
 
         <p style={{ fontSize: "17px", marginTop: "2px" }}>
-          User Id : user123, Password : user@123
+          User Id : user123 || user123@gmail.com, Password : user@123
         </p>
         <p style={{ fontSize: "17px", marginTop: "2px" }}>
-          Admin Id : admin123, Password : admin@123
+          Admin Id : admin123 || admin123@gmail.com, Password : admin@123
         </p>
 
         <div className="work-list">
