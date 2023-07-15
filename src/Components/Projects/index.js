@@ -41,7 +41,7 @@ function Projects() {
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
-                  href="https://stately-rugelach-600890.netlify.app/"
+                  href="https://github.com/SARANYA251096/Password_reset_server"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
