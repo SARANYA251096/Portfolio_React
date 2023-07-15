@@ -48,7 +48,7 @@ function Projects() {
                   <button>Backend</button>
                 </a>
                 <a
-                  href="https://glistening-daffodil-5438e2.netlify.app/"
+                  href="https://beamish-churros-c086f5.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
