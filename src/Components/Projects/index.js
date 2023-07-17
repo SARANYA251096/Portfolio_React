@@ -143,7 +143,7 @@ function Projects() {
             </div>
           </div>
           <div className="work">
-            <img src="images/work-3.png" alt="Work 3" />
+            <img src="images/work-4.avif" alt="Work 3" />
             <div className="layer">
               <h3>Shawarma World</h3>
               <p style={{ marginTop: "10px" }}>
@@ -183,7 +183,7 @@ function Projects() {
             </div>
           </div>
           <div className="work">
-            <img src="images/work-2.png" alt="Work 4" />
+            <img src="images/work-5.jpg" alt="Work 4" />
             <div className="layer">
               <h3> React Contact Application</h3>
               <p style={{ marginTop: "10px" }}>
