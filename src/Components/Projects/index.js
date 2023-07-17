@@ -21,19 +21,20 @@ function Projects() {
 
         <div className="work-list">
           <div className="work">
-            <img src="images/work-1.png" alt="Work 1" />
+            <img src="images/work-1.avif" alt="Work 1" />
             <div className="layer">
-              <h3>Full stack Authentication</h3>
+              <h3>StackOverflow Clone</h3>
               <p style={{ marginTop: "10px" }}>
-                Implemented secure access and user management features. Utilized
-                industry-standard authentication mechanisms such as JSON Web
-                Tokens (JWT) and bcrypt for password hashing. Developed user
-                registration and login forms, enabling users to create accounts
-                and securely authenticate themselves.
+                By incorporating Firebase's real-time database, authentication,
+                and hosting capabilities, we provide a secure and scalable
+                environment for users to register, login, and actively
+                participate in the community. The implementation of Redux
+                ensures efficient state management, enhancing the overall user
+                experience.
               </p>
               <div className="projectt">
                 <a
-                  href="https://github.com/SARANYA251096/Password_Reset_frontend"
+                  href="https://github.com/SARANYA251096/stackoverflow-frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -41,14 +42,14 @@ function Projects() {
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
-                  href="https://github.com/SARANYA251096/Password_reset_server"
+                  href="https://github.com/SARANYA251096/stackoverflow-backend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button>Backend</button>
                 </a>
                 <a
-                  href="https://beamish-churros-c086f5.netlify.app/"
+                  href="https://aquamarine-klepon-0842ee.netlify.app/auth"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
