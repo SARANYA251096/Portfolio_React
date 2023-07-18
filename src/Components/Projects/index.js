@@ -189,7 +189,7 @@ function Projects() {
               <h3> React Contact Application</h3>
               <p style={{ marginTop: "10px" }}>
                 Implemented frontend react contact application to
-                create,edit,delete an contact.
+                create,edit, and delete contact.
               </p>
               <div className="projectt">
                 <a
