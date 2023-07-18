@@ -21,20 +21,18 @@ function Projects() {
 
         <div className="work-list">
           <div className="work">
-            <img src="images/work-1.avif" alt="Work 1" />
+            <img src="images/work-4.avif" alt="Work 3" />
             <div className="layer">
-              <h3>StackOverflow Clone</h3>
+              <h3>Shawarma World</h3>
               <p style={{ marginTop: "10px" }}>
-                By incorporating Firebase's real-time database, authentication,
-                and hosting capabilities, we provide a secure and scalable
-                environment for users to register, login, and actively
-                participate in the community. The implementation of Redux
-                ensures efficient state management, enhancing the overall user
-                experience.
+                Developed a shawarma delivery application using the MERN stack,
+                allowing users to select their favourite varieties and added to
+                cart. Implemented key features such as search,filter, user
+                authentication,admin and used stripe payment gateway integration
               </p>
               <div className="projectt">
                 <a
-                  href="https://github.com/SARANYA251096/stackoverflow-frontend"
+                  href="https://github.com/SARANYA251096/Shawarma_world_frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -42,14 +40,14 @@ function Projects() {
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
-                  href="https://github.com/SARANYA251096/stackoverflow-backend"
+                  href="https://github.com/SARANYA251096/Shawarma_world_backend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button>Backend</button>
                 </a>
                 <a
-                  href="https://aquamarine-klepon-0842ee.netlify.app/auth"
+                  href="https://shawarma-world-frontend.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -62,6 +60,7 @@ function Projects() {
               </div>
             </div>
           </div>
+
           <div className="work">
             <img src="images/work-2.png" alt="Work 2" />
             <div className="layer">
@@ -144,18 +143,20 @@ function Projects() {
             </div>
           </div>
           <div className="work">
-            <img src="images/work-4.avif" alt="Work 3" />
+            <img src="images/work-1.avif" alt="Work 1" />
             <div className="layer">
-              <h3>Shawarma World</h3>
+              <h3>StackOverflow Clone</h3>
               <p style={{ marginTop: "10px" }}>
-                Developed a shawarma delivery application using the MERN stack,
-                allowing users to select their favourite varieties and added to
-                cart. Implemented key features such as search,filter, user
-                authentication,admin and used stripe payment gateway integration
+                By incorporating Firebase's real-time database, authentication,
+                and hosting capabilities, we provide a secure and scalable
+                environment for users to register, login, and actively
+                participate in the community. The implementation of Redux
+                ensures efficient state management, enhancing the overall user
+                experience.
               </p>
               <div className="projectt">
                 <a
-                  href="https://github.com/SARANYA251096/Shawarma_world_frontend"
+                  href="https://github.com/SARANYA251096/stackoverflow-frontend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -163,14 +164,14 @@ function Projects() {
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
-                  href="https://github.com/SARANYA251096/Shawarma_world_backend"
+                  href="https://github.com/SARANYA251096/stackoverflow-backend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button>Backend</button>
                 </a>
                 <a
-                  href="https://shawarma-world-frontend.netlify.app/"
+                  href="https://aquamarine-klepon-0842ee.netlify.app/auth"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -188,8 +189,8 @@ function Projects() {
             <div className="layer">
               <h3> React Contact Application</h3>
               <p style={{ marginTop: "10px" }}>
-                Implemented frontend react contact application to
-                create,edit, and delete contact.
+                Implemented frontend react contact application to create,edit,
+                and delete contact.
               </p>
               <div className="projectt">
                 <a
