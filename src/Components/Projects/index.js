@@ -20,8 +20,10 @@ function Projects() {
         </p>
 
         <div className="work-list">
+
+
           <div className="work">
-            <img src="images/work-4.avif" alt="Work 3" />
+            <img src="images/work-1.png!bw700" alt="Work 1" />
             <div className="layer">
               <h3>Shawarma World</h3>
               <p style={{ marginTop: "10px" }}>
@@ -143,7 +145,7 @@ function Projects() {
             </div>
           </div>
           <div className="work">
-            <img src="images/work-1.avif" alt="Work 1" />
+            <img src="images/work-4.avif" alt="Work 4" />
             <div className="layer">
               <h3>StackOverflow Clone</h3>
               <p style={{ marginTop: "10px" }}>
@@ -185,7 +187,7 @@ function Projects() {
             </div>
           </div>
           <div className="work">
-            <img src="images/work-5.jpg" alt="Work 4" />
+            <img src="images/work-5.jpg" alt="Work 5" />
             <div className="layer">
               <h3> React Contact Application</h3>
               <p style={{ marginTop: "10px" }}>
