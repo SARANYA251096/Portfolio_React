@@ -72,7 +72,7 @@ function Skills() {
               </div>
               <div className="skill">
                 <img
-                  src="https://wsofter.ru/wp-content/uploads/2017/12/node-express.png"
+                  src="https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png"
                   width="150"
                   height="150"
                   alt="express"
@@ -81,7 +81,7 @@ function Skills() {
               </div>
               <div className="skill">
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  src="https://static-00.iconduck.com/assets.00/mongodb-icon-1024x1024-jyklwn1x.png"
                   width="150"
                   height="150"
                   alt="mongodb"
