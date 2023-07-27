@@ -76,14 +76,8 @@
 }
 
 @media screen and (max-width: 790px) {
-  .about h3{
-    justify-content: center;
-    margin-right: 80px;
+  .container{
+    margin-bottom: 160px;
   }
-  .heading{
-    margin-top: 250px;
-  }
-  .col-md-6 h2{
-    margin-top: 30px;
-  }
+  
 }
