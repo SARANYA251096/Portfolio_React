@@ -11,7 +11,6 @@ function Projects() {
         >
           My Projects
         </h1>
-
         <div className="ptag">
           <p style={{ fontSize: "17px", marginTop: "2px" }}>
             User Id : user123 || user123@gmail.com, Password : user@123
@@ -23,7 +22,7 @@ function Projects() {
 
         <div className="work-list">
           <div className="work">
-            <img src="images/work-1.png!bw700" alt="Work 1" />
+            <img src="images/work-1.png" alt="Work 1" />
             <div className="layer">
               <h3>Shawarma World</h3>
               <p style={{ marginTop: "10px" }}>
