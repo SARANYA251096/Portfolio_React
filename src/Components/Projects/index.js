@@ -12,12 +12,14 @@ function Projects() {
           My Projects
         </h1>
 
-        <p style={{ fontSize: "17px", marginTop: "2px" }}>
-          User Id : user123 || user123@gmail.com, Password : user@123
-        </p>
-        <p style={{ fontSize: "17px", marginTop: "2px" }}>
-          Admin Id : admin123 || admin123@gmail.com, Password : admin@123
-        </p>
+        <div className="ptag">
+          <p style={{ fontSize: "17px", marginTop: "2px" }}>
+            User Id : user123 || user123@gmail.com, Password : user@123
+          </p>
+          <p style={{ fontSize: "17px", marginTop: "2px" }}>
+            Admin Id : admin123 || admin123@gmail.com, Password : admin@123
+          </p>
+        </div>
 
         <div className="work-list">
           <div className="work">
@@ -193,7 +195,6 @@ function Projects() {
                   href="https://react-contacts-app1.netlify.app/contacts/list"
                   target="_blank"
                   rel="noopener noreferrer"
-                
                 >
                   Live
                 </a>

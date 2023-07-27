@@ -162,8 +162,9 @@
   background-position: 100% 0;
 }
 
-@media screen and (max-width: 600px) {
-  .container{
+@media screen and (max-width: 601px) {
+ 
+  .ptag{
     margin-top: 50px;
   }
   
