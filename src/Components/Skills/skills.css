@@ -48,3 +48,9 @@
     margin-top: 20px;
   }
 }
+@media(max-width:605px){
+  
+  .skills{
+    margin-top: 70px;
+  }
+}

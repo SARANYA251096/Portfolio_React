@@ -7,7 +7,7 @@ function Skills() {
       <h1 className="heading">Skills</h1>
       <div className="container1">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 ">
             <div className="d-flex justify-content-center align-items-center flex-wrap">
               <div className="skill">
                 <img
