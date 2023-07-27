@@ -20,8 +20,6 @@ function Projects() {
         </p>
 
         <div className="work-list">
-
-
           <div className="work">
             <img src="images/work-1.png!bw700" alt="Work 1" />
             <div className="layer">
@@ -38,26 +36,23 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Frontend</button>
+                  Frontend
                 </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  href="https://github.com/SARANYA251096/Shawarma_world_backend"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button>Backend</button>
-                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://shawarma-world-frontend.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button
-                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
-                  >
-                    Live
-                  </button>
+                  Live
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://github.com/SARANYA251096/Shawarma_world_backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend
                 </a>
               </div>
             </div>
@@ -79,26 +74,23 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Frontend</button>
+                  Frontend
                 </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  href="https://github.com/SARANYA251096/Chatapp-backend"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button>Backend</button>
-                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://stately-rugelach-600890.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button
-                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
-                  >
-                    Live
-                  </button>
+                  Live
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://github.com/SARANYA251096/Chatapp-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend
                 </a>
               </div>
             </div>
@@ -120,26 +112,23 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Frontend</button>
+                  Frontend
                 </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  href="https://github.com/SARANYA251096/Recipe_App_Backend"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button>Backend</button>
-                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://animated-treacle-44ba01.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button
-                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
-                  >
-                    Live
-                  </button>
+                  Live
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://github.com/SARANYA251096/Recipe_App_Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend
                 </a>
               </div>
             </div>
@@ -162,26 +151,23 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Frontend</button>
+                  Frontend
                 </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  href="https://github.com/SARANYA251096/stackoverflow-backend"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button>Backend</button>
-                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://aquamarine-klepon-0842ee.netlify.app/auth"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button
-                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
-                  >
-                    Live
-                  </button>
+                  Live
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://github.com/SARANYA251096/stackoverflow-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend
                 </a>
               </div>
             </div>
@@ -200,19 +186,16 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Frontend</button>
+                  Frontend
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://react-contacts-app1.netlify.app/contacts/list"
                   target="_blank"
                   rel="noopener noreferrer"
+                
                 >
-                  <button
-                    style={{ marginTop: "10px", width: "50px", height: "40px" }}
-                  >
-                    Live
-                  </button>
+                  Live
                 </a>
               </div>
             </div>

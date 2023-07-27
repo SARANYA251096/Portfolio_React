@@ -13,12 +13,30 @@
   position: relative;
   overflow: hidden;
 }
-.projectt button {
-   font-size: 15px;
-   width: 70px !important;
-   justify-content: space-between;
-   
+.projectt {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 10px !important;
 }
+
+
+.projectt a {
+  font-size: 16px !important;
+  text-decoration: none !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  padding: 6px !important;
+  background-color: #f2f2f2 !important;
+  border-radius: 20px !important;
+  color: #333 !important;
+
+ 
+}
+
+.projectt a:hover {
+  background-color: #ddd !important;
+}
+
 .work img {
   width: 100%;
   height: 400px;
