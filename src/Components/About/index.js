@@ -123,25 +123,7 @@ function About() {
               </a>
             </h3>
 
-            <h3>
-              <a
-                href="https://drive.google.com/file/d/15lHwj9tVGTAIgbEarmnu5Dq4uMpTugdH/view?usp=drivesdk"
-                target="_blank"
-                rel="noreferrer"
-              >
-                AWS Certificate
-              </a>
-            </h3>
-
-            <h3>
-              <a
-                href="https://drive.google.com/file/d/15aHyJMTtk_A5-M7hn8Gshbqvyzhx2KhC/view?usp=drivesdk"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Java automation and testing Certificate
-              </a>
-            </h3>
+            
           </div>
         </div>
       </div>
