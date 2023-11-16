@@ -21,7 +21,7 @@ function About() {
               of various organizations.
             </p>
             <a
-              href="https://drive.google.com/file/d/1Ar7vLQNpNX5IjVj1QQDA7tvtW9EJLqoh/view"
+              href="https://drive.google.com/file/d/1GNkSBbHPUDGOKK1Uac7jf3JqPb1i0pOs/view"
               target="_blank"
               rel="noreferrer"
               className="btn"
@@ -122,8 +122,6 @@ function About() {
                 Full Stack(MERN) Certificate
               </a>
             </h3>
-
-            
           </div>
         </div>
       </div>
