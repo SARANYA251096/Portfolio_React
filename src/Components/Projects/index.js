@@ -97,7 +97,10 @@ function Projects() {
             </div>
           </div>
           <div className="work">
-            <img src="images/work-3.png" alt="Work 3" />
+            <img
+              src="https://foodphotographymumbai.com/blog/wp-content/uploads/2021/09/indian-food.jpeg"
+              alt="Work 3"
+            />
             <div className="layer">
               <h3>Recipe Application</h3>
               <p style={{ marginTop: "10px" }}>
@@ -126,6 +129,48 @@ function Projects() {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   href="https://github.com/SARANYA251096/Recipe_App_Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="work">
+            <img
+              src="https://play-lh.googleusercontent.com/A747_ZQChKrXMYBE57FLa8i3wELhspIxjLguKf3UYDJ_Ecd3YlSv_WqRG3iD3Q4e5g=w526-h296-rw"
+              alt="Work 1"
+            />
+            <div className="layer">
+              <h3>Notes App</h3>
+              <p style={{ marginTop: "10px" }}>
+                I crafted a dynamic Notes Application that spans the full
+                technology stack, utilizing MongoDB for data storage, React for
+                the frontend interface, and Node.js and ExpressJs for
+                server-side scripting and functionality. This application
+                empowers users to effortlessly create, modify, and delete notes
+                intuitive user interface.
+              </p>
+              <div className="projectt">
+                <a
+                  href="https://github.com/SARANYA251096/NotesApp-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Frontend
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://notess-app-frontend.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://github.com/SARANYA251096/NotesApp-backend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -173,6 +218,7 @@ function Projects() {
               </div>
             </div>
           </div>
+
           <div className="work">
             <img src="images/work-5.jpg" alt="Work 5" />
             <div className="layer">
